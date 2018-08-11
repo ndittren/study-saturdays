@@ -37,7 +37,7 @@ describe('Models', function() {
     });
 
     describe('attributes definition', () => {
-      it('includes `firstName`, `lastName`, and `email` fields', () => {
+      xit('includes `firstName`, `lastName`, and `email` fields', () => {
         return student.save().then(savedStudent => {
           expect(savedStudent.firstName).to.equal('Peter');
           expect(savedStudent.lastName).to.equal('Parker');
